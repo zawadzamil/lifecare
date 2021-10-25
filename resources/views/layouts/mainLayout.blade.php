@@ -71,8 +71,8 @@ $sndColumn = \App\Models\Departments::orderBy('created_at','desc')->take($other)
                 <span class="icofont-navigation-menu"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarmain">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarmain" style="margin-left: 20%;  ">
+                <ul class="navbar-nav ml-auto" >
                     <li class="nav-item active">
                         <a class="nav-link" href="{{url('/')}}">Home</a>
                     </li>
